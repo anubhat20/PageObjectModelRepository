@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="HubSpot Test Automation Suite">
+
+	<!--  Declaration for Extent Report Listener class-->
+	<listeners>
+		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
+	</listeners>
+	
+	<test name="HubSpot Test Cases">
+		<classes>
+			<class name = "com.qa.hubspot.tests.LoginPageTest"/>
+			<class name = "com.qa.hubspot.tests.HomePageTest"/>
+			<class name = "com.qa.hubspot.tests.ContactsPageTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,8 @@
+com\qa\hubspot\pages\ContactsPage.class
+com\qa\hubspot\pages\LoginPage.class
+com\qa\hubspot\base\TestBase.class
+com\qa\hubspot\pages\HomePage.class
+com\qa\hubspot\pages\CompaniesPage.class
+com\qa\hubspot\listeners\ExtentReportListener.class
+com\qa\hubspot\utils\TestUtil.class
+com\qa\hubspot\utils\WebEventListener.class
